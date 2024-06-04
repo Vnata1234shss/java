@@ -11,12 +11,7 @@ public class Tel {
     private static Map<String, HashSet<Integer>> phoneBook = new HashMap<>();
 
    
-    
-    // @Override
-    // public int compareTo(Tel o) {
-    // return phoneBook.keySet().size()-o.phoneBook.keySet().size();
-
-    // }
+     }
 
      public Tel() {
     }
@@ -43,7 +38,7 @@ public class Tel {
             phoneBook.put(name, new HashSet<>());
             phoneBook.get(name).add(phoneNum);
         }
-        // System.out.println("Добавлены новые данные");
+       
     }
 
     public void find(String name) {
